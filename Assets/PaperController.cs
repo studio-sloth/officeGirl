@@ -45,6 +45,7 @@ public class PaperController : MonoBehaviour {
         container.jobCompleteUI.gameObject.SetActive(false);
         //Destroy(gameObject);
         isWorking = false;
+        container.gameController.jobCompleted();
 
         yield break ;
 

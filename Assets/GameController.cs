@@ -11,6 +11,9 @@ public class GameController : MonoBehaviour {
     public int numberOfWorkToStart=10;
 
     int numberOfCompletedJob=0;
+    
+    
+
 
 	// Use this for initialization
 	void Start () {

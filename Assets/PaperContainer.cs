@@ -10,6 +10,7 @@ public class PaperContainer : MonoBehaviour {
     Vector3 topPosition;
     public float paperUpStep = 5f;
     public Slider jobCompleteUI;
+    public GameController gameController;
 
 
     // Use this for initialization
